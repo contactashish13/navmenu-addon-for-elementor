@@ -239,7 +239,7 @@ class Navmenu_Overlay extends Widget_Base {
 			'theme_location' => 'nav_overlay_menu', // creating a fake location for better functional control
 			'menu'           => $overlay_menu,
 			'echo'           => true,
-			'depth'          => 1,
+			'depth'          => 0,
 			'walker'         => '',
 		);
 	?>
